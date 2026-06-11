@@ -28,35 +28,21 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "About Us",
-          id: "/about",
-        },
+          name: "About Us",          id: "/about"},
         {
-          name: "Products",
-          id: "/products",
-        },
+          name: "Products",          id: "/products"},
         {
-          name: "Industries",
-          id: "/industries",
-        },
+          name: "Industries",          id: "/industries"},
         {
-          name: "Gallery",
-          id: "/gallery",
-        },
+          name: "Gallery",          id: "/gallery"},
         {
-          name: "Certifications",
-          id: "/certifications",
-        },
+          name: "Certifications",          id: "/certifications"},
       ]}
       brandName="ReflectPro Solutions"
       button={{
-        text: "Contact Us",
-        href: "/contact",
-      }}
+        text: "Contact Us",        href: "/contact"}}
       animateOnLoad={true}
     />
   </div>
@@ -65,36 +51,19 @@ export default function LandingPage() {
       <MetricCardSeven
       textboxLayout="default"
       useInvertedBackground={false}
+      animationType="slide-up"
       metrics={[
         {
-          id: "about-metric-1",
-          value: "1 Million+",
-          title: "Meters of Tape Produced",
-          items: [
-            "High-volume manufacturing",
-            "Advanced production lines",
-            "Sustainable material sourcing",
-          ],
+          id: "about-metric-1",          value: "1 Million+",          title: "Meters of Tape Produced",          items: [
+            "High-volume manufacturing",            "Advanced production lines",            "Sustainable material sourcing"],
         },
         {
-          id: "about-metric-2",
-          value: "50,000+",
-          title: "Tons of Steel Supplied",
-          items: [
-            "Diverse steel grades",
-            "Custom fabrication services",
-            "Reliable supply chain",
-          ],
+          id: "about-metric-2",          value: "50,000+",          title: "Tons of Steel Supplied",          items: [
+            "Diverse steel grades",            "Custom fabrication services",            "Reliable supply chain"],
         },
         {
-          id: "about-metric-3",
-          value: "300+",
-          title: "Successful Industrial Projects",
-          items: [
-            "Complex project management",
-            "Tailored client solutions",
-            "On-time, on-budget delivery",
-          ],
+          id: "about-metric-3",          value: "300+",          title: "Successful Industrial Projects",          items: [
+            "Complex project management",            "Tailored client solutions",            "On-time, on-budget delivery"],
         },
       ]}
       title="Our Journey and Impact in Numbers"
@@ -106,103 +75,38 @@ export default function LandingPage() {
       <TeamCardEleven
       textboxLayout="default"
       useInvertedBackground={true}
+      animationType="slide-up"
       groups={[
         {
-          id: "leadership",
-          groupTitle: "Leadership Team",
-          members: [
+          id: "leadership",          groupTitle: "Leadership Team",          members: [
             {
-              id: "member-1",
-              title: "CEO & Founder",
-              subtitle: "John Smith",
-              detail: "Visionary leader driving innovation and strategic growth.",
-              imageSrc: "http://img.b2bpic.net/free-photo/older-man-home-using-tablet-device_23-2148991657.jpg",
-              imageAlt: "John Smith",
-            },
+              id: "member-1",              title: "CEO & Founder",              subtitle: "John Smith",              detail: "Visionary leader driving innovation and strategic growth.",              imageSrc: "http://img.b2bpic.net/free-photo/older-man-home-using-tablet-device_23-2148991657.jpg",              imageAlt: "John Smith"},
             {
-              id: "member-2",
-              title: "COO",
-              subtitle: "Jane Doe",
-              detail: "Oversees all operational processes and supply chain management.",
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-business-woman-office_1398-6.jpg",
-              imageAlt: "Jane Doe",
-            },
+              id: "member-2",              title: "COO",              subtitle: "Jane Doe",              detail: "Oversees all operational processes and supply chain management.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-business-woman-office_1398-6.jpg",              imageAlt: "Jane Doe"},
             {
-              id: "member-3",
-              title: "Head of Sales",
-              subtitle: "Robert Brown",
-              detail: "Leads our global sales initiatives and client relationships.",
-              imageSrc: "http://img.b2bpic.net/free-photo/senior-man-looking-camera-smiling-sitting-workplace-desk_482257-5730.jpg",
-              imageAlt: "Robert Brown",
-            },
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-shot-escalator-with-dirtproof-grating_181624-56931.jpg?_wi=2",
-          imageAlt: "male CEO professional portrait",
+              id: "member-3",              title: "Head of Sales",              subtitle: "Robert Brown",              detail: "Leads our global sales initiatives and client relationships.",              imageSrc: "http://img.b2bpic.net/free-photo/senior-man-looking-camera-smiling-sitting-workplace-desk_482257-5730.jpg",              imageAlt: "Robert Brown"},
+          ]
         },
         {
-          id: "production",
-          groupTitle: "Production & Engineering",
-          members: [
+          id: "production",          groupTitle: "Production & Engineering",          members: [
             {
-              id: "member-4",
-              title: "Head of Production",
-              subtitle: "Emily White",
-              detail: "Manages manufacturing excellence and efficiency.",
-              imageSrc: "http://img.b2bpic.net/free-photo/smiling-african-american-man-posing-library_74855-1619.jpg",
-              imageAlt: "Emily White",
-            },
+              id: "member-4",              title: "Head of Production",              subtitle: "Emily White",              detail: "Manages manufacturing excellence and efficiency.",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-african-american-man-posing-library_74855-1619.jpg",              imageAlt: "Emily White"},
             {
-              id: "member-5",
-              title: "R&D Director",
-              subtitle: "David Green",
-              detail: "Innovating new reflective and steel product solutions.",
-              imageSrc: "http://img.b2bpic.net/free-photo/engineer-photovoltaics-factory-taking-notes-upgrades-make_482257-118451.jpg",
-              imageAlt: "David Green",
-            },
+              id: "member-5",              title: "R&D Director",              subtitle: "David Green",              detail: "Innovating new reflective and steel product solutions.",              imageSrc: "http://img.b2bpic.net/free-photo/engineer-photovoltaics-factory-taking-notes-upgrades-make_482257-118451.jpg",              imageAlt: "David Green"},
             {
-              id: "member-6",
-              title: "Procurement Manager",
-              subtitle: "Sophia Black",
-              detail: "Ensures quality material sourcing and cost-effectiveness.",
-              imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12838.jpg",
-              imageAlt: "Sophia Black",
-            },
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/people-line-waiting-social-distance-stripe_23-2148863828.jpg?_wi=2",
-          imageAlt: "male CEO professional portrait",
+              id: "member-6",              title: "Procurement Manager",              subtitle: "Sophia Black",              detail: "Ensures quality material sourcing and cost-effectiveness.",              imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12838.jpg",              imageAlt: "Sophia Black"},
+          ]
         },
         {
-          id: "support",
-          groupTitle: "Support & Quality",
-          members: [
+          id: "support",          groupTitle: "Support & Quality",          members: [
             {
-              id: "member-7",
-              title: "Finance Director",
-              subtitle: "Daniel Wilson",
-              detail: "Manages financial strategy and fiscal responsibility.",
-              imageSrc: "http://img.b2bpic.net/free-photo/serious-executive-sitting-couch_1098-2454.jpg",
-              imageAlt: "Daniel Wilson",
-            },
+              id: "member-7",              title: "Finance Director",              subtitle: "Daniel Wilson",              detail: "Manages financial strategy and fiscal responsibility.",              imageSrc: "http://img.b2bpic.net/free-photo/serious-executive-sitting-couch_1098-2454.jpg",              imageAlt: "Daniel Wilson"},
             {
-              id: "member-8",
-              title: "Marketing Manager",
-              subtitle: "Olivia Clark",
-              detail: "Develops our brand presence and market outreach.",
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-saleswoman-working-office-sitting-business-room-reading-writing-down_1258-193622.jpg",
-              imageAlt: "Olivia Clark",
-            },
+              id: "member-8",              title: "Marketing Manager",              subtitle: "Olivia Clark",              detail: "Develops our brand presence and market outreach.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-saleswoman-working-office-sitting-business-room-reading-writing-down_1258-193622.jpg",              imageAlt: "Olivia Clark"},
             {
-              id: "member-9",
-              title: "QA Manager",
-              subtitle: "Chris Lee",
-              detail: "Ensures all products meet stringent quality standards.",
-              imageSrc: "http://img.b2bpic.net/free-photo/mature-business-manager-office_1098-21368.jpg",
-              imageAlt: "Chris Lee",
-            },
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/warm-edge-lighting-open-section-blue-modern_169016-68924.jpg?_wi=2",
-          imageAlt: "male CEO professional portrait",
-        },
+              id: "member-9",              title: "QA Manager",              subtitle: "Chris Lee",              detail: "Ensures all products meet stringent quality standards.",              imageSrc: "http://img.b2bpic.net/free-photo/mature-business-manager-office_1098-21368.jpg",              imageAlt: "Chris Lee"},
+          ]
+        }
       ]}
       title="Meet Our Expert Team"
       description="Our dedicated professionals bring a wealth of experience and expertise to every aspect of our business, ensuring top-tier service and innovative solutions."
@@ -215,35 +119,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "faq-about-1",
-          title: "What is ReflectPro Solutions' core mission?",
-          content: "Our mission is to be the leading provider of innovative reflective safety tapes and high-quality industrial steel solutions, fostering safety and efficiency across global industries.",
-        },
+          id: "faq-about-1",          title: "What is ReflectPro Solutions' core mission?",          content: "Our mission is to be the leading provider of innovative reflective safety tapes and high-quality industrial steel solutions, fostering safety and efficiency across global industries."},
         {
-          id: "faq-about-2",
-          title: "Where are ReflectPro Solutions' products manufactured?",
-          content: "All our products are manufactured in our state-of-the-art facilities, adhering to strict quality control and international production standards.",
-        },
+          id: "faq-about-2",          title: "Where are ReflectPro Solutions' products manufactured?",          content: "All our products are manufactured in our state-of-the-art facilities, adhering to strict quality control and international production standards."},
         {
-          id: "faq-about-3",
-          title: "How does ReflectPro ensure product quality?",
-          content: "We implement rigorous testing protocols, quality assurance programs, and continuous process improvements, all backed by ISO certifications, to guarantee superior product quality.",
-        },
+          id: "faq-about-3",          title: "How does ReflectPro ensure product quality?",          content: "We implement rigorous testing protocols, quality assurance programs, and continuous process improvements, all backed by ISO certifications, to guarantee superior product quality."},
         {
-          id: "faq-about-4",
-          title: "Does ReflectPro offer custom product development?",
-          content: "Yes, we specialize in customized solutions for both reflective tapes and steel products, working closely with clients to meet their specific design and functional requirements.",
-        },
+          id: "faq-about-4",          title: "Does ReflectPro offer custom product development?",          content: "Yes, we specialize in customized solutions for both reflective tapes and steel products, working closely with clients to meet their specific design and functional requirements."},
         {
-          id: "faq-about-5",
-          title: "What are ReflectPro's sustainability practices?",
-          content: "We are committed to sustainable manufacturing, utilizing eco-friendly materials, optimizing energy consumption, and minimizing waste throughout our production cycles.",
-        },
+          id: "faq-about-5",          title: "What are ReflectPro's sustainability practices?",          content: "We are committed to sustainable manufacturing, utilizing eco-friendly materials, optimizing energy consumption, and minimizing waste throughout our production cycles."},
         {
-          id: "faq-about-6",
-          title: "What is ReflectPro's global reach?",
-          content: "ReflectPro Solutions serves clients in over 15 countries, supported by a robust logistics network and dedicated international sales teams.",
-        },
+          id: "faq-about-6",          title: "What is ReflectPro's global reach?",          content: "ReflectPro Solutions serves clients in over 15 countries, supported by a robust logistics network and dedicated international sales teams."},
       ]}
       title="Common Questions About ReflectPro Solutions"
       description="Find answers to frequently asked questions regarding our company's mission, values, and operational procedures."
@@ -258,19 +144,13 @@ export default function LandingPage() {
       socialLinks={[
         {
           icon: Facebook,
-          href: "#",
-          ariaLabel: "Facebook",
-        },
+          href: "#",          ariaLabel: "Facebook"},
         {
           icon: Linkedin,
-          href: "#",
-          ariaLabel: "LinkedIn",
-        },
+          href: "#",          ariaLabel: "LinkedIn"},
         {
           icon: Twitter,
-          href: "#",
-          ariaLabel: "Twitter",
-        },
+          href: "#",          ariaLabel: "Twitter"},
       ]}
     />
   </div>
