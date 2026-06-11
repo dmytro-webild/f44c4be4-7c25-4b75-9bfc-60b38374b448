@@ -75,17 +75,17 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "High-Visibility Reflective Tapes",          description: "Engineered for maximum conspicuity, our tapes ensure superior visibility for trucks, trailers, buses, and all commercial vehicles, day and night.",          imageSrc: "http://img.b2bpic.net/free-photo/people-line-waiting-social-distance-stripe_23-2148863828.jpg",          imageAlt: "Rolls of high-visibility reflective tape",          buttonIcon: Zap,
+          title: "High-Visibility Reflective Tapes",          description: "Engineered for maximum conspicuity, our tapes ensure superior visibility for trucks, trailers, buses, and all commercial vehicles, day and night.",          imageSrc: "http://img.b2bpic.net/free-photo/people-line-waiting-social-distance-stripe_23-2148863828.jpg",          imageAlt: "Rolls of high-visibility reflective tape",          buttonIcon: Zap
         },
         {
-          title: "Custom Reflective Solutions",          description: "From bespoke decorative designs to specialized safety markings, we offer tailored reflective products that meet unique client specifications and branding needs.",          imageSrc: "http://img.b2bpic.net/free-photo/photo-wood-texture-pattern_58702-13116.jpg",          imageAlt: "Custom reflective decorative product",          buttonIcon: Sparkles,
+          title: "Custom Reflective Solutions",          description: "From bespoke decorative designs to specialized safety markings, we offer tailored reflective products that meet unique client specifications and branding needs.",          imageSrc: "http://img.b2bpic.net/free-photo/photo-wood-texture-pattern_58702-13116.jpg",          imageAlt: "Custom reflective decorative product",          buttonIcon: Sparkles
         },
         {
-          title: "Premium Industrial Steel Sheets",          description: "Supplying high-grade steel sheets and advanced metal fabrication, our solutions are critical for construction, manufacturing, and heavy industry applications.",          imageSrc: "http://img.b2bpic.net/free-photo/warm-edge-lighting-open-section-blue-modern_169016-68924.jpg",          imageAlt: "Stacked industrial steel sheets",          buttonIcon: Shield,
+          title: "Premium Industrial Steel Sheets",          description: "Supplying high-grade steel sheets and advanced metal fabrication, our solutions are critical for construction, manufacturing, and heavy industry applications.",          imageSrc: "http://img.b2bpic.net/free-photo/warm-edge-lighting-open-section-blue-modern_169016-68924.jpg",          imageAlt: "Stacked industrial steel sheets",          buttonIcon: Shield
         },
         {
-          title: "Uncompromised Quality & Compliance",          description: "All our products adhere to strict international safety standards and quality certifications, ensuring reliability and peace of mind for our B2B partners.",          imageSrc: "http://img.b2bpic.net/free-photo/woman-working-warehouse_23-2148923072.jpg",          imageAlt: "Quality certification stamp",          buttonIcon: Award,
-        },
+          title: "Uncompromised Quality & Compliance",          description: "All our products adhere to strict international safety standards and quality certifications, ensuring reliability and peace of mind for our B2B partners.",          imageSrc: "http://img.b2bpic.net/free-photo/woman-working-warehouse_23-2148923072.jpg",          imageAlt: "Quality certification stamp",          buttonIcon: Award
+        }
       ]}
       title="Leading the Industry in Safety & Durability"
       description="At ReflectPro Solutions, we combine cutting-edge technology with robust materials to provide products that stand the test of time and demanding environments."
@@ -105,7 +105,7 @@ export default function LandingPage() {
           label: "Years in Business",          value: "25+"},
         {
           icon: Building2,
-          label: "Production Capacity (tons/month)",          value: "500+"},
+          label: "Production Capacity (tons/month)",          value: "500+"}
       ]}
       metricsAnimation="slide-up"
     />
@@ -129,7 +129,7 @@ export default function LandingPage() {
         {
           id: "product-home-5",          name: "High-Visibility Safety Tape (White)",          price: "Request Quote",          imageSrc: "http://img.b2bpic.net/free-photo/service-worker-painting-car-auto-service_23-2149486985.jpg",          imageAlt: "White high-visibility safety tape"},
         {
-          id: "product-home-6",          name: "Custom Metal Fabrication",          price: "Request Quote",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-man-disinfecting-hands-workshop-s-office_637285-9825.jpg",          imageAlt: "Custom metal fabrication solution"},
+          id: "product-home-6",          name: "Custom Metal Fabrication",          price: "Request Quote",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-man-disinfecting-hands-workshop-s-office_637285-9825.jpg",          imageAlt: "Custom metal fabrication solution"}
       ]}
       title="Innovative Solutions for Every Need"
       description="Discover our diverse range of high-performance reflective tapes and robust steel sheet solutions, engineered for maximum impact and longevity."
@@ -144,16 +144,16 @@ export default function LandingPage() {
       metrics={[
         {
           id: "metric-1",          value: "99.8%",          title: "On-Time Delivery",          items: [
-            "Reliable logistics",            "Efficient scheduling",            "Global distribution network"],
+            "Reliable logistics",            "Efficient scheduling",            "Global distribution network"]
         },
         {
           id: "metric-2",          value: "A+",          title: "Quality Assurance Rating",          items: [
-            "Rigorous testing protocols",            "ISO certified processes",            "Continuous improvement"],
+            "Rigorous testing protocols",            "ISO certified processes",            "Continuous improvement"]
         },
         {
           id: "metric-3",          value: "15+",          title: "Countries Served",          items: [
-            "International partnerships",            "Export compliance expertise",            "Tailored global solutions"],
-        },
+            "International partnerships",            "Export compliance expertise",            "Tailored global solutions"]
+        }
       ]}
       title="Unmatched Performance & Reliability"
       description="Our operational prowess ensures every product meets the highest standards, driving efficiency and client satisfaction across the globe."
@@ -191,7 +191,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/front-view-smiley-young-man-with-helmet_23-2148269289.jpg",          imageAlt: "David Kim"},
         {
           id: "5",          name: "Jessica Lee",          role: "Wholesale Buyer",          company: "Safety Products Inc.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/male-worker-with-arms-crossed-standing-factory_107420-96042.jpg",          imageAlt: "Jessica Lee"},
+          imageSrc: "http://img.b2bpic.net/free-photo/male-worker-with-arms-crossed-standing-factory_107420-96042.jpg",          imageAlt: "Jessica Lee"}
       ]}
       kpiItems={[
         {
@@ -199,7 +199,7 @@ export default function LandingPage() {
         {
           value: "100%",          label: "Product Reliability"},
         {
-          value: "4.9/5",          label: "Average Rating"},
+          value: "4.9/5",          label: "Average Rating"}
       ]}
       title="What Our Clients Say About Us"
       description="Hear directly from our valued partners about how ReflectPro Solutions has consistently delivered on quality, reliability, and exceptional service."
@@ -219,7 +219,7 @@ export default function LandingPage() {
           href: "#",          ariaLabel: "LinkedIn"},
         {
           icon: Twitter,
-          href: "#",          ariaLabel: "Twitter"},
+          href: "#",          ariaLabel: "Twitter"}
       ]}
     />
   </div>
