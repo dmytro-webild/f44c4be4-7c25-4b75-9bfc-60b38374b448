@@ -42,7 +42,7 @@ export default function LandingPage() {
         {
           name: "Gallery",          id: "/gallery"},
         {
-          name: "Certifications",          id: "/certifications"},
+          name: "Certifications",          id: "/certifications"}
       ]}
       brandName="ReflectPro Solutions"
       button={{
@@ -61,7 +61,7 @@ export default function LandingPage() {
         {
           text: "Explore Products",          href: "/products"},
         {
-          text: "Get a Quote",          href: "/contact"},
+          text: "Get a Quote",          href: "/contact"}
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/low-angle-shot-escalator-with-dirtproof-grating_181624-56931.jpg"
       imageAlt="Industrial facility with trucks and steel sheets"
