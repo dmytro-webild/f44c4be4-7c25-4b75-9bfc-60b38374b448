@@ -136,7 +136,7 @@ export default function LandingPage() {
               imageAlt: "Robert Brown",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-shot-escalator-with-dirtproof-grating_181624-56931.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/low-angle-shot-escalator-with-dirtproof-grating_181624-56931.jpg?_wi=2",
           imageAlt: "male CEO professional portrait",
         },
         {
@@ -168,7 +168,7 @@ export default function LandingPage() {
               imageAlt: "Sophia Black",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/people-line-waiting-social-distance-stripe_23-2148863828.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/people-line-waiting-social-distance-stripe_23-2148863828.jpg?_wi=2",
           imageAlt: "male CEO professional portrait",
         },
         {
@@ -200,7 +200,7 @@ export default function LandingPage() {
               imageAlt: "Chris Lee",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/warm-edge-lighting-open-section-blue-modern_169016-68924.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/warm-edge-lighting-open-section-blue-modern_169016-68924.jpg?_wi=2",
           imageAlt: "male CEO professional portrait",
         },
       ]}

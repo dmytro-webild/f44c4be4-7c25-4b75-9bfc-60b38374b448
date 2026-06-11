@@ -82,7 +82,7 @@ export default function LandingPage() {
           href: "/contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/low-angle-shot-escalator-with-dirtproof-grating_181624-56931.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/low-angle-shot-escalator-with-dirtproof-grating_181624-56931.jpg?_wi=1"
       imageAlt="Industrial facility with trucks and steel sheets"
       mediaAnimation="blur-reveal"
     />
@@ -96,7 +96,7 @@ export default function LandingPage() {
         {
           title: "High-Visibility Reflective Tapes",
           description: "Engineered for maximum conspicuity, our tapes ensure superior visibility for trucks, trailers, buses, and all commercial vehicles, day and night.",
-          imageSrc: "http://img.b2bpic.net/free-photo/people-line-waiting-social-distance-stripe_23-2148863828.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/people-line-waiting-social-distance-stripe_23-2148863828.jpg?_wi=1",
           imageAlt: "Rolls of high-visibility reflective tape",
           buttonIcon: "Zap",
         },
@@ -110,7 +110,7 @@ export default function LandingPage() {
         {
           title: "Premium Industrial Steel Sheets",
           description: "Supplying high-grade steel sheets and advanced metal fabrication, our solutions are critical for construction, manufacturing, and heavy industry applications.",
-          imageSrc: "http://img.b2bpic.net/free-photo/warm-edge-lighting-open-section-blue-modern_169016-68924.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/warm-edge-lighting-open-section-blue-modern_169016-68924.jpg?_wi=1",
           imageAlt: "Stacked industrial steel sheets",
           buttonIcon: "Shield",
         },
