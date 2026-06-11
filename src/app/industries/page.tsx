@@ -6,7 +6,7 @@ import FeatureCardTwentySix from '@/components/sections/feature/FeatureCardTwent
 import FooterCard from '@/components/sections/footer/FooterCard';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
-import { Facebook, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Linkedin, Twitter, Bus, Construction, Factory, Globe } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -27,35 +27,21 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "About Us",
-          id: "/about",
-        },
+          name: "About Us",          id: "/about"},
         {
-          name: "Products",
-          id: "/products",
-        },
+          name: "Products",          id: "/products"},
         {
-          name: "Industries",
-          id: "/industries",
-        },
+          name: "Industries",          id: "/industries"},
         {
-          name: "Gallery",
-          id: "/gallery",
-        },
+          name: "Gallery",          id: "/gallery"},
         {
-          name: "Certifications",
-          id: "/certifications",
-        },
+          name: "Certifications",          id: "/certifications"}
       ]}
       brandName="ReflectPro Solutions"
       button={{
-        text: "Contact Us",
-        href: "/contact",
-      }}
+        text: "Contact Us",        href: "/contact"}}
       animateOnLoad={true}
     />
   </div>
@@ -66,33 +52,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Transportation & Logistics",
-          description: "Providing reflective tapes for fleet visibility, cargo safety, and compliance with road transport regulations, ensuring secure and efficient movement of goods.",
-          imageSrc: "http://img.b2bpic.net/free-photo/trucking-professionals-reviewing-logistics-information_23-2152001547.jpg",
-          imageAlt: "Trucks parked at a logistics hub",
-          buttonIcon: "Bus",
+          title: "Transportation & Logistics",          description: "Providing reflective tapes for fleet visibility, cargo safety, and compliance with road transport regulations, ensuring secure and efficient movement of goods.",          imageSrc: "http://img.b2bpic.net/free-photo/industries-served-1",          imageAlt: "Trucks parked at a logistics hub",          buttonIcon: Bus
         },
         {
-          title: "Construction & Infrastructure",
-          description: "Supplying durable steel sheets for structural integrity and high-visibility tapes for site safety, essential for robust building and public works projects.",
-          imageSrc: "http://img.b2bpic.net/free-photo/workers-examining-work_1122-970.jpg",
-          imageAlt: "Construction workers on site safety",
-          buttonIcon: "Construction",
+          title: "Construction & Infrastructure",          description: "Supplying durable steel sheets for structural integrity and high-visibility tapes for site safety, essential for robust building and public works projects.",          imageSrc: "http://img.b2bpic.net/free-photo/industries-served-2",          imageAlt: "Construction workers on site safety",          buttonIcon: Construction
         },
         {
-          title: "Industrial Manufacturing",
-          description: "From metal fabrication to machinery marking, our products enhance operational safety and provide critical components for heavy industry and production lines.",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-checking-document_23-2148902536.jpg",
-          imageAlt: "Factory production line steel work",
-          buttonIcon: "Factory",
+          title: "Industrial Manufacturing",          description: "From metal fabrication to machinery marking, our products enhance operational safety and provide critical components for heavy industry and production lines.",          imageSrc: "http://img.b2bpic.net/free-photo/industries-served-3",          imageAlt: "Factory production line steel work",          buttonIcon: Factory
         },
         {
-          title: "Wholesale & International Trade",
-          description: "Partnering with wholesalers and international buyers, we provide bulk supply of reflective products and steel solutions with seamless global delivery and support.",
-          imageSrc: "http://img.b2bpic.net/free-photo/logistics-means-transport-together-with-technological-futuristic-holograms_23-2151662969.jpg",
-          imageAlt: "Wholesaler warehouse inventory stacks",
-          buttonIcon: "Globe",
-        },
+          title: "Wholesale & International Trade",          description: "Partnering with wholesalers and international buyers, we provide bulk supply of reflective products and steel solutions with seamless global delivery and support.",          imageSrc: "http://img.b2bpic.net/free-photo/industries-served-4",          imageAlt: "Wholesaler warehouse inventory stacks",          buttonIcon: Globe
+        }
       ]}
       title="Tailored Solutions for Diverse Industries"
       description="ReflectPro Solutions empowers businesses across key sectors with specialized products designed to meet their unique operational demands and safety requirements."
@@ -104,14 +74,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       names={[
-        "Global Cargo Connect",
-        "MegaBuild Group",
-        "Precision Machining Inc.",
-        "TransContinental Freight",
-        "Urban Development Corp.",
-        "Heavy Industry Solutions",
-        "World Trade Alliance",
-      ]}
+        "Global Cargo Connect",        "MegaBuild Group",        "Precision Machining Inc.",        "TransContinental Freight",        "Urban Development Corp.",        "Heavy Industry Solutions",        "World Trade Alliance"]}
       title="Partnering Across Key Sectors"
       description="Our clientele spans diverse industries, reflecting our versatility and capability to deliver tailored solutions that drive success in every sector."
     />
@@ -124,19 +87,13 @@ export default function LandingPage() {
       socialLinks={[
         {
           icon: Facebook,
-          href: "#",
-          ariaLabel: "Facebook",
-        },
+          href: "#",          ariaLabel: "Facebook"},
         {
           icon: Linkedin,
-          href: "#",
-          ariaLabel: "LinkedIn",
-        },
+          href: "#",          ariaLabel: "LinkedIn"},
         {
           icon: Twitter,
-          href: "#",
-          ariaLabel: "Twitter",
-        },
+          href: "#",          ariaLabel: "Twitter"}
       ]}
     />
   </div>

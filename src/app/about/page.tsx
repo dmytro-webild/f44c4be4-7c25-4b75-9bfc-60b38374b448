@@ -38,7 +38,7 @@ export default function LandingPage() {
         {
           name: "Gallery",          id: "/gallery"},
         {
-          name: "Certifications",          id: "/certifications"},
+          name: "Certifications",          id: "/certifications"}
       ]}
       brandName="ReflectPro Solutions"
       button={{
@@ -55,16 +55,16 @@ export default function LandingPage() {
       metrics={[
         {
           id: "about-metric-1",          value: "1 Million+",          title: "Meters of Tape Produced",          items: [
-            "High-volume manufacturing",            "Advanced production lines",            "Sustainable material sourcing"],
+            "High-volume manufacturing",            "Advanced production lines",            "Sustainable material sourcing"]
         },
         {
           id: "about-metric-2",          value: "50,000+",          title: "Tons of Steel Supplied",          items: [
-            "Diverse steel grades",            "Custom fabrication services",            "Reliable supply chain"],
+            "Diverse steel grades",            "Custom fabrication services",            "Reliable supply chain"]
         },
         {
           id: "about-metric-3",          value: "300+",          title: "Successful Industrial Projects",          items: [
-            "Complex project management",            "Tailored client solutions",            "On-time, on-budget delivery"],
-        },
+            "Complex project management",            "Tailored client solutions",            "On-time, on-budget delivery"]
+        }
       ]}
       title="Our Journey and Impact in Numbers"
       description="Since our inception, ReflectPro Solutions has consistently grown, expanding our reach and enhancing our capabilities to better serve global industries."
@@ -84,7 +84,7 @@ export default function LandingPage() {
             {
               id: "member-2",              title: "COO",              subtitle: "Jane Doe",              detail: "Oversees all operational processes and supply chain management.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-business-woman-office_1398-6.jpg",              imageAlt: "Jane Doe"},
             {
-              id: "member-3",              title: "Head of Sales",              subtitle: "Robert Brown",              detail: "Leads our global sales initiatives and client relationships.",              imageSrc: "http://img.b2bpic.net/free-photo/senior-man-looking-camera-smiling-sitting-workplace-desk_482257-5730.jpg",              imageAlt: "Robert Brown"},
+              id: "member-3",              title: "Head of Sales",              subtitle: "Robert Brown",              detail: "Leads our global sales initiatives and client relationships.",              imageSrc: "http://img.b2bpic.net/free-photo/senior-man-looking-camera-smiling-sitting-workplace-desk_482257-5730.jpg",              imageAlt: "Robert Brown"}
           ]
         },
         {
@@ -94,7 +94,7 @@ export default function LandingPage() {
             {
               id: "member-5",              title: "R&D Director",              subtitle: "David Green",              detail: "Innovating new reflective and steel product solutions.",              imageSrc: "http://img.b2bpic.net/free-photo/engineer-photovoltaics-factory-taking-notes-upgrades-make_482257-118451.jpg",              imageAlt: "David Green"},
             {
-              id: "member-6",              title: "Procurement Manager",              subtitle: "Sophia Black",              detail: "Ensures quality material sourcing and cost-effectiveness.",              imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12838.jpg",              imageAlt: "Sophia Black"},
+              id: "member-6",              title: "Procurement Manager",              subtitle: "Sophia Black",              detail: "Ensures quality material sourcing and cost-effectiveness.",              imageSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12838.jpg",              imageAlt: "Sophia Black"}
           ]
         },
         {
@@ -104,7 +104,7 @@ export default function LandingPage() {
             {
               id: "member-8",              title: "Marketing Manager",              subtitle: "Olivia Clark",              detail: "Develops our brand presence and market outreach.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-saleswoman-working-office-sitting-business-room-reading-writing-down_1258-193622.jpg",              imageAlt: "Olivia Clark"},
             {
-              id: "member-9",              title: "QA Manager",              subtitle: "Chris Lee",              detail: "Ensures all products meet stringent quality standards.",              imageSrc: "http://img.b2bpic.net/free-photo/mature-business-manager-office_1098-21368.jpg",              imageAlt: "Chris Lee"},
+              id: "member-9",              title: "QA Manager",              subtitle: "Chris Lee",              detail: "Ensures all products meet stringent quality standards.",              imageSrc: "http://img.b2bpic.net/free-photo/mature-business-manager-office_1098-21368.jpg",              imageAlt: "Chris Lee"}
           ]
         }
       ]}
@@ -129,7 +129,7 @@ export default function LandingPage() {
         {
           id: "faq-about-5",          title: "What are ReflectPro's sustainability practices?",          content: "We are committed to sustainable manufacturing, utilizing eco-friendly materials, optimizing energy consumption, and minimizing waste throughout our production cycles."},
         {
-          id: "faq-about-6",          title: "What is ReflectPro's global reach?",          content: "ReflectPro Solutions serves clients in over 15 countries, supported by a robust logistics network and dedicated international sales teams."},
+          id: "faq-about-6",          title: "What is ReflectPro's global reach?",          content: "ReflectPro Solutions serves clients in over 15 countries, supported by a robust logistics network and dedicated international sales teams."}
       ]}
       title="Common Questions About ReflectPro Solutions"
       description="Find answers to frequently asked questions regarding our company's mission, values, and operational procedures."
@@ -150,7 +150,7 @@ export default function LandingPage() {
           href: "#",          ariaLabel: "LinkedIn"},
         {
           icon: Twitter,
-          href: "#",          ariaLabel: "Twitter"},
+          href: "#",          ariaLabel: "Twitter"}
       ]}
     />
   </div>
